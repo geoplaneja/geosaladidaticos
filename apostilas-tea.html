@@ -217,10 +217,10 @@ footer{padding-block:30px 56px;font-size:14px;color:var(--muted);text-align:cent
 <script>
 /* Edite só este bloco. Cole o link da Kiwify de cada produto e ajuste os preços. */
 var CONFIG = {
-  kit:   { url: "https://pay.kiwify.com.br/COLE-AQUI-O-LINK-DO-KIT",   preco: "R$ 24,90", de: "R$ 44,70" },
-  geo6:  { url: "https://pay.kiwify.com.br/COLE-AQUI-O-LINK-GEO6",     preco: "R$ 14,90" },
-  hist6: { url: "https://pay.kiwify.com.br/COLE-AQUI-O-LINK-HIST6",    preco: "R$ 14,90" },
-  geo7:  { url: "https://pay.kiwify.com.br/COLE-AQUI-O-LINK-GEO7",     preco: "R$ 14,90" }
+  kit:   { url: "https://pay.kiwify.com.br/k4jrkaV",   preco: "R$ 24,90", de: "R$ 44,70" },
+  geo6:  { url: "https://pay.kiwify.com.br/uGfNRVU",     preco: "R$ 14,90" },
+  hist6: { url: "https://pay.kiwify.com.br/YTKL3Lx",    preco: "R$ 14,90" },
+  geo7:  { url: "https://pay.kiwify.com.br/2iocUfp",     preco: "R$ 14,90" }
 };
 document.querySelectorAll("[data-buy]").forEach(function(a){ var c = CONFIG[a.getAttribute("data-buy")]; if (c) { a.href = c.url; a.target = "_blank"; } });
 Object.keys(CONFIG).forEach(function(k){ var el = document.getElementById("preco-" + k); if (el) el.textContent = CONFIG[k].preco; });
